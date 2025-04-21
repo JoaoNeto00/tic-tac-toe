@@ -1,4 +1,4 @@
-# jogo_da_velha_app
+# Tic_Tac_Toe_app
 
 A new Flutter project.
 
