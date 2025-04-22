@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/models/square_model.dart';
+import 'package:tic_tac_toe/src/controllers/square_controller.dart';
 import 'package:tic_tac_toe/src/theme/app_colors.dart';
 import 'package:tic_tac_toe/src/widgets/square.dart';
 
 class TicTacToe extends StatelessWidget {
-  final List<SquareModel> squares = List.generate(9, (_) => SquareModel());
+  final List<SquareController> squares = List.generate(
+    9,
+    (_) => SquareController(),
+  );
 
   TicTacToe({super.key});
 

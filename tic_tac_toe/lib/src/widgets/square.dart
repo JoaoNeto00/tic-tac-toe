@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/models/square_model.dart';
+import 'package:tic_tac_toe/src/controllers/square_controller.dart';
 import 'package:tic_tac_toe/src/theme/app_colors.dart';
 
 class Square extends StatelessWidget {
-  final SquareModel model;
+  final SquareController model;
 
   const Square({super.key, required this.model});
 
   @override
   Widget build(BuildContext context) {
-    print("build saquere..");
+    print("build square..");
     return GestureDetector(
       onTap: () {
         model.togle("assets/image_x.png");
