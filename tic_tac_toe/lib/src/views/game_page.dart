@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/widgets/app_bar_custom.dart';
-import 'package:tic_tac_toe/src/widgets/footer_bar_custom.dart';
-import 'package:tic_tac_toe/src/widgets/tic_tac_toe.dart';
-import 'package:tic_tac_toe/src/widgets/waves_bar.dart';
+import 'package:tic_tac_toe/src/views/widgets/app_bar_custom.dart';
+import 'package:tic_tac_toe/src/views/widgets/footer_bar_custom.dart';
+import 'package:tic_tac_toe/src/views/widgets/tic_tac_toe.dart';
+import 'package:tic_tac_toe/src/views/widgets/waves_bar.dart';
 
 class GamePage extends StatelessWidget {
   const GamePage({super.key});

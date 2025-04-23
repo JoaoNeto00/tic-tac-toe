@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/pages/game_page.dart';
+import 'package:tic_tac_toe/src/views/game_page.dart';
 import 'package:tic_tac_toe/src/theme/app_colors.dart';
 
 class AppWidet extends StatelessWidget {

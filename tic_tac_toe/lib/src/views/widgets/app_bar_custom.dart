@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/widgets/reset_btn.dart';
+import 'package:tic_tac_toe/src/views/widgets/reset_btn.dart';
 
 class AppBarCustom extends StatelessWidget {
   const AppBarCustom({super.key});

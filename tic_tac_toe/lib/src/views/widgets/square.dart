@@ -9,6 +9,9 @@ class Square extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final containerSize = screenWidth * 0.9;
+
     print("build square..");
     return GestureDetector(
       onTap: () {
@@ -28,11 +31,11 @@ class Square extends StatelessWidget {
               return model.value.isNotEmpty
                   ? Container(
                     padding: EdgeInsets.all(0),
-                    width: 50,
+                    width: double.infinity,
                     child: Image.asset(
                       model.value,
-                      width: 120,
-                      height: 120,
+                      width: double.infinity,
+                      height: 70,
                       fit: BoxFit.contain,
                     ),
                   )

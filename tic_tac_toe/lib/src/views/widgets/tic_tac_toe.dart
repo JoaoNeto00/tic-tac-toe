@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tic_tac_toe/src/controllers/square_controller.dart';
 import 'package:tic_tac_toe/src/theme/app_colors.dart';
-import 'package:tic_tac_toe/src/widgets/square.dart';
+import 'package:tic_tac_toe/src/views/widgets/square.dart';
 
 class TicTacToe extends StatelessWidget {
   final List<SquareController> squares = List.generate(
