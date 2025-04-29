@@ -9,8 +9,7 @@ class Square extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final containerSize = screenWidth * 0.9;
+
 
     print("build square..");
     return GestureDetector(
