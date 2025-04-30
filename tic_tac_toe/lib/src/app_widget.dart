@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/src/views/game_page.dart';
+import 'package:tic_tac_toe/src/views/pages/game_page.dart';
 import 'package:tic_tac_toe/src/theme/app_colors.dart';
 
 class AppWidet extends StatelessWidget {
@@ -9,7 +9,7 @@ class AppWidet extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primaryColor: AppColors.primary),
-      title: "Tic Tec Toe",
+      title: "Tic Tac Toe",
       home: GamePage(),
     );
   }
